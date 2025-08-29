@@ -1,0 +1,7 @@
+{
+  "data_source": "example-tire-sensor-data",
+  "model_name": "tire-predictor-model",
+  "kubeflow_pipeline": "parts-predictor-pipeline-v1-8-0",
+  "pipeline_entry_function": "tire_prediction_pipeline",
+  "runtime_name": "tire-predictor-runtime"
+}
