@@ -1,6 +1,6 @@
 {
   "data_source": "example-exhaust-sensor-data",
-  "model_name": "exhaust-predictor-model",
+  "model_name": "exhaust-predictor-model-2",
   "kubeflow_pipeline": "parts-predictor-pipeline-v1-8-0",
   "pipeline_entry_function": "exhaust_prediction_pipeline",
   "runtime_name": "exhaust-predictor-runtime"
