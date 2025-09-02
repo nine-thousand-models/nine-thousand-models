@@ -1,9 +1,9 @@
 {
   "data_source": {
     "type": "s3",
-    "bucket": "exhaust-sensor-data",
-    "prefix": "sensors/exhaust/",
-    "pattern": "*.csv"
+    "bucket": "data",
+    "prefix": "",
+    "pattern": "*.parquet"
   },
   "model_name": "exhaust-predictor-model-2",
   "kubeflow_pipeline": "parts-pipeline",
