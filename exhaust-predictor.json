@@ -5,7 +5,7 @@
     "prefix": "",
     "pattern": "*.parquet"
   },
-  "model_name": "exhaust-predictor-model-2",
+  "model_name": "exhaust-predictor-model",
   "kubeflow_pipeline": "parts-pipeline",
   "kubeflow_pipeline_version": "parts-pipeline-v1.14.0",
   "runtime_name": "exhaust-predictor-runtime"
