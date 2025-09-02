@@ -1,0 +1,7 @@
+{
+  "data_source": "example-window-data",
+  "model_name": "window-predictor-model",
+  "kubeflow_pipeline": "parts-predictor-pipeline-v1-8-0",
+  "pipeline_entry_function": "prediction_pipeline",
+  "runtime_name": "window-predictor-runtime"
+}
