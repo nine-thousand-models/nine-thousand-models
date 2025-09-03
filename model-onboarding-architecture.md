@@ -18,18 +18,16 @@ graph TD
     C -->|6. Creates| F[📦 ModelCar Image<br/>Container with model artifacts]
     
     C -->|7. Updates GitOps repo| G[📁 nine-thousand-models-gitops]
+        
+    G -->|8. Push changes| G
     
-    C -->|8. Creates folder & config.yaml| H[📄 test/model-name/config.yaml<br/>- ModelCar image tag<br/>- Deployment info]
+    G -->|9. Detects changes| I[🔄 Argo CD ApplicationSet]
     
-    G -->|9. Push changes| G
+    I -->|10. Deploys to| J[🧪 Test Environment]
     
-    G -->|10. Detects changes| I[🔄 Argo CD ApplicationSet]
+    C -->|11. Creates PR| K[📋 PR to update prod/<br/>nine-thousand-models-gitops]
     
-    I -->|11. Deploys to| J[🧪 Test Environment]
-    
-    C -->|12. Creates PR| K[📋 PR to prod/<br/>nine-thousand-models-gitops]
-    
-    K -->|13. After approval & merge| L[🏭 Production Environment]
+    K -->|12. After approval & merge| L[🏭 Production Environment]
 
     style A fill:#e1f5fe
     style B fill:#f3e5f5
