@@ -1,9 +1,9 @@
 {
   "data_source": {
-    "type": "s3",
-    "bucket": "data",
-    "prefix": "",
-    "pattern": "*.parquet"
+    "type": "dvc",
+    "dataset": "exhaust-data.parquet",
+    "repo_url": "https://github.com/nine-thousand-models/nine-thousand-data",
+    "dvc_hash": "tbd"
   },
   "model_name": "exhaust-predictor-model",
   "kubeflow_pipeline": "parts-pipeline",
