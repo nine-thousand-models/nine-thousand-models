@@ -8,5 +8,8 @@
   "model_name": "exhaust-predictor-model",
   "kubeflow_pipeline": "parts-pipeline",
   "kubeflow_pipeline_version": "parts-pipeline-v1.18.0",
-  "runtime_name": "exhaust-predictor-runtime"
+  "runtime_name": "exhaust-predictor-runtime",
+  "model_hyperparameters": {
+    "number_of_layers": 3
+  }
 }
