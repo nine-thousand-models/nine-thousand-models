@@ -1,7 +1,16 @@
 {
-  "data_source": "example-window-sensor-data",
-  "model_name": "window-predictor",
+  "data_source": {
+    "type": "s3",
+    "bucket": "data",
+    "prefix": "window-data",
+    "pattern": "*.csv"
+  },
+  "model_name": "window-predictor-model",
   "kubeflow_pipeline": "parts-pipeline",
-  "kubeflow_pipeline_version": "parts-pipeline-v1.18.0",
-  "runtime_name": "window-predictor-runtime"
+  "kubeflow_pipeline_version": "parts-pipeline-v1.20.0",
+  "runtime_name": "window-predictor-runtime",
+  "model_hyperparameters": {
+      "epochs": 10,
+      "batch_size": 32
+    }
 }

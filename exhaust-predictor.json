@@ -1,7 +1,7 @@
 {
   "data_source": {
     "type": "dvc",
-    "dataset": "exhaust-data.parquet",
+    "dataset": "datasets/exhaust-data/data.parquet",
     "repo_url": "https://github.com/nine-thousand-models/nine-thousand-data",
     "dvc_hash": "tbd"
   },
