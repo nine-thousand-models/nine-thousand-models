@@ -3,13 +3,13 @@
     "type": "dvc",
     "dataset": "datasets/exhaust-data/data.parquet",
     "repo_url": "https://github.com/nine-thousand-models/nine-thousand-data",
-    "dvc_hash": "tbd"
+    "dvc_hash": "df04f2cf9d1d1c7675e1619ec30ec83b"
   },
   "model_name": "exhaust-predictor-model",
   "kubeflow_pipeline": "parts-pipeline",
   "kubeflow_pipeline_version": "parts-pipeline-v1.20.0",
   "runtime_name": "exhaust-predictor-runtime",
   "model_hyperparameters": {
-      "epochs": 1
-    }
+    "epochs": 1
+  }
 }
