@@ -24,16 +24,14 @@ graph TD
     C -->|6. Creates| F[📦 ModelCar Image<br/>Container with model artifacts]
     
     C -->|7. Updates GitOps repo| G[📁 nine-thousand-models-gitops]
-        
-    G -->|8. Push changes| G
+            
+    G -->|8. Detects changes| I[🔄 Argo CD ApplicationSet]
     
-    G -->|9. Detects changes| I[🔄 Argo CD ApplicationSet]
+    I -->|9. Deploys to| J[🧪 Test Environment]
     
-    I -->|10. Deploys to| J[🧪 Test Environment]
+    C -->|10. Creates PR| K[📋 PR to update prod/<br/>nine-thousand-models-gitops]
     
-    C -->|11. Creates PR| K[📋 PR to update prod/<br/>nine-thousand-models-gitops]
-    
-    K -->|12. After approval & merge| L[🏭 Production Environment]
+    K -->|11. After approval & merge| L[🏭 Production Environment]
 
     style A fill:#e1f5fe
     style B fill:#f3e5f5
@@ -87,7 +85,7 @@ graph TD
     - Environment-specific settings
   - Commits and pushes changes
 
-### 9-11. Test Deployment
+### 9. Test Deployment
 - **Component**: Argo CD ApplicationSet
 - **Process**:
   - Detects new `config.yaml` in test directory
@@ -95,7 +93,7 @@ graph TD
   - Auto-syncs to test environment
   - Self-healing deployment
 
-### 12-13. Production Deployment
+### 10-11. Production Deployment
 - **Component**: `nine-thousand-pipeline`
 - **Process**:
   - Creates Pull Request to production directory
