@@ -7,7 +7,7 @@
   },
   "model_name": "exhaust-predictor-model",
   "kubeflow_pipeline": "parts-pipeline",
-  "kubeflow_pipeline_version": "parts-pipeline-v1.22.0",
+  "kubeflow_pipeline_version": "parts-pipeline-v1.23.0",
   "runtime_name": "exhaust-predictor-runtime",
   "model_hyperparameters": {
     "epochs": 1
