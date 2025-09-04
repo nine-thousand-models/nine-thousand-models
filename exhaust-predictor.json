@@ -3,7 +3,7 @@
     "type": "dvc",
     "dataset": "datasets/exhaust-data/data.parquet",
     "repo_url": "https://github.com/nine-thousand-models/nine-thousand-data",
-    "dvc_hash": "df04f2cf9d1d1c7675e1619ec30ec83b"
+    "dvc_hash": "5c2145f3f900c69fb20c0af2657b7876"
   },
   "model_name": "exhaust-predictor-model",
   "kubeflow_pipeline": "parts-pipeline",
