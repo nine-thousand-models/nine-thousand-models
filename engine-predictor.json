@@ -8,7 +8,7 @@
   "model_name": "engine-predictor-model",
   "kubeflow_pipeline": "engine-pipeline",
   "kubeflow_pipeline_version": "engine-pipeline-v1.22.0",
-  "runtime_name": "onnx",
+  "runtime_name": "onnx2",
   "model_hyperparameters": {
     "epochs": 1
   }
