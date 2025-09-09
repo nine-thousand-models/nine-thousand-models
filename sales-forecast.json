@@ -1,0 +1,16 @@
+{
+  "data_source": {
+    "type": "s3",
+    "bucket": "data",
+    "prefix": "sales-forecast-data",
+    "pattern": "*.parquet"
+  },
+  "model_name": "sales-forecast-model",
+  "kubeflow_pipeline": "forecasting-training-pipeline",
+  "kubeflow_pipeline_version": "forecasting-training-pipeline-v1.20.0",
+  "runtime_name": "onnx",
+  "model_hyperparameters": {
+      "epochs": 3,
+      "learning_rate": 0.001
+    }
+}

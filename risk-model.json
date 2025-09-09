@@ -1,0 +1,16 @@
+{
+  "data_source": {
+    "type": "s3",
+    "bucket": "data",
+    "prefix": "risk-data",
+    "pattern": "*.csv"
+  },
+  "model_name": "risk-model",
+  "kubeflow_pipeline": "classification-training-pipeline",
+  "kubeflow_pipeline_version": "classification-training-pipeline-v1.20.0",
+  "runtime_name": "tensorflow",
+  "model_hyperparameters": {
+      "epochs": 10,
+      "batch_size": 32
+    }
+}

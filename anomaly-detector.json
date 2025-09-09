@@ -1,0 +1,15 @@
+{
+  "data_source": {
+    "type": "dvc",
+    "dataset": "datasets/anomaly-detector/data.parquet",
+    "repo_url": "https://github.com/nine-thousand-models/nine-thousand-data",
+    "dvc_hash": "tbd"
+  },
+  "model_name": "anomaly-detector-model",
+  "kubeflow_pipeline": "classification-training-pipeline",
+  "kubeflow_pipeline_version": "classification-training-pipeline-v1.20.0",
+  "runtime_name": "onnx",
+  "model_hyperparameters": {
+      "epochs": 5
+    }
+}
