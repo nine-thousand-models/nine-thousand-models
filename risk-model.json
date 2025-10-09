@@ -7,7 +7,7 @@
   },
   "model_name": "risk-model",
   "kubeflow_pipeline": "classification-training-pipeline",
-  "kubeflow_pipeline_version": "classification-training-pipeline-v1.20.0",
+  "kubeflow_pipeline_version": "classification-training-pipeline-v1.23.0",
   "runtime_name": "tensorflow",
   "model_hyperparameters": {
       "epochs": 10,
