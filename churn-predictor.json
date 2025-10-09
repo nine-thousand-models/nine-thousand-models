@@ -10,6 +10,6 @@
   "kubeflow_pipeline_version": "classification-training-pipeline-v1.23.0",
   "runtime_name": "tensorflow",
   "model_hyperparameters": {
-    "epochs": 1
+    "epochs": 2
   }
 }
