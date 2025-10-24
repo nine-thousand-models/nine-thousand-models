@@ -3,13 +3,13 @@
     "type": "dvc",
     "dataset": "datasets/drift-detector/data.parquet",
     "repo_url": "https://github.com/nine-thousand-models/nine-thousand-data",
-    "dvc_hash": "tbd"
+    "dvc_hash": "5c2145f3f900c69fb20c0af2657b7876"
   },
   "model_name": "drift-detector-model",
   "kubeflow_pipeline": "classification-training-pipeline",
   "kubeflow_pipeline_version": "classification-training-pipeline-v1.23.0",
   "runtime_name": "onnx",
   "model_hyperparameters": {
-      "epochs": 5
-    }
+    "epochs": 5
+  }
 }
