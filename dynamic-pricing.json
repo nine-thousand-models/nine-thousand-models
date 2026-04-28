@@ -3,7 +3,7 @@
     "type": "dvc",
     "dataset": "datasets/dynamic-pricing/data.parquet",
     "repo_url": "https://github.com/nine-thousand-models/nine-thousand-data",
-    "dvc_hash": "5c2145f3f900c69fb20c0af2657b7876"
+    "dvc_hash": "e9a83e0394756aac610c7a4825526c71"
   },
   "model_name": "dynamic-pricing-model",
   "kubeflow_pipeline": "classification-training-pipeline",
