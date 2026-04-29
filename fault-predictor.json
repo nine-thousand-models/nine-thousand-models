@@ -1,0 +1,15 @@
+{
+  "data_source": {
+    "type": "dvc",
+    "dataset": "datasets/fault-predictor/data.parquet",
+    "repo_url": "https://github.com/nine-thousand-models/nine-thousand-data",
+    "dvc_hash": "e9a83e0394756aac610c7a4825526c71"
+  },
+  "model_name": "fault-predictor-model",
+  "kubeflow_pipeline": "classification-training-pipeline",
+  "kubeflow_pipeline_version": "classification-training-pipeline-v1.29.0",
+  "runtime_name": "onnx",
+  "model_hyperparameters": {
+    "epochs": 5
+  }
+}
